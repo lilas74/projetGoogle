@@ -1,0 +1,198 @@
+body {
+    text-align: center;
+    font-family: arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 13px;
+}
+
+/* Mise en forme  du header */
+
+
+/*1° La navigation*/
+#navigation ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#navigation li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: stretch;
+}
+
+
+
+#buttonConnexion {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background-color: #4285f4;
+    color: #fff;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+}
+
+#buttonConnexion:active {
+    background-color: #0460f3;
+}
+
+nav i {
+    display: inline-block;
+    color: black;
+    vertical-align: middle;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*Mise en forme de la partie principale*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main img {
+    width: 272px;
+    height: 92px;
+    padding: 100px 100px 0 100px;
+}
+
+#maRecherche {
+
+    width: 584px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 20px auto;
+    box-shadow: black;
+    border: 0.5px rgba(230, 229, 229, 0.616) solid;
+    background-image: url(magnifyingglass_102622.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-size: 17px;
+
+}
+
+#maRecherche:hover {
+    box-shadow: 5px 5px 5px rgba(10, 10, 10, 0.116);
+}
+
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 0px 16px 0px 16px;
+    margin: 11px 4px 11px 4px;
+    height: 36px;
+    width: 150px;
+    color: #5F6368;
+}
+
+#main {
+    width: 45px;
+    height: 45px;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    width: 100%;
+    margin: 20px auto;
+    height: 45px;
+}
+
+aside a {
+    font-size: 13px;
+    text-decoration-line: none;
+}
+
+/* Mise en forme du footer*/
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+footer div {
+    border: 0.5px solid rgba(199, 192, 192, 0.945);
+    color: rgba(0, 0, 0, .54);
+    height: 40px;
+    background-color: rgba(199, 194, 194, 0.50);
+
+
+}
+
+#haut {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 10px;
+    vertical-align: center;
+    border-bottom: none;
+}
+
+#bas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+
+}
+
+#bas li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#gauche ul {
+    padding-left: 0px;
+}
+
+#bas nav a {
+    color: rgba(0, 0, 0, .54);
+    font-size: 14px;
+}
